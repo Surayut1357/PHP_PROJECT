@@ -1,8 +1,8 @@
 <?php
 
 include_once 'condb.php';
-$per_id = $_GET['PID'];
-$sql = "SELECT * FROM `customer` WHERE PID ='$per_id'";
+$pro_id = $_GET['PROID'];
+$sql = "SELECT * FROM `customer` WHERE PROID ='$pro_id'";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_array($result);
 
@@ -40,7 +40,7 @@ $row = mysqli_fetch_array($result);
                         <p> ชื่อสิ่งของ:</p> <input type="text" name="ProName" placeholder="LG Gram" class="form-control" value=<?= $row['PRONAME'] ?>><br>
 
                         <p> ราคา:</p> <input type="text" name="Price" placeholder="450" class="form-control" value=<?= $row['Price'] ?>><br>
-
+                        <p> วัน/เดือน/ปีเกิด: <input type="date" name="bdate" id="d1" class="form-control" value=<?= $row['BDATE'] ?>></p><br>
                         <p> วันที่นำเข้าจำนำ: <input type="date" name="indate" id="d1" class="form-control" value=<?= $row['INDATE'] ?>></p><br>
                         <p> วันที่นำหมดจำนำ: <input type="date" name="exdate" id="d2" class="form-control" value=<?= $row['EXDATE'] ?>><br>
                             <input type="submit" name="submit" class="btn btn-info w-100" value="แก้ไขข้อมูล"><br>

@@ -67,7 +67,7 @@ include_once "condb.php";
                     <td><?= $row["INDATE"] ?></td>
                     <td><?= $row["EXDATE"] ?></td>
                     <td><?= $row["Interest"] ?></td>
-                    <td><a href="editmemberform.php?PID=<?= $row["PID"] ?>" class="btn btn-warning">Edit</td>
+                    <td><a href="editmemberform.php?PROID=<?= $row["PROID"] ?>" class="btn btn-warning">Edit</td>
                     <td><a href="deletemember.php?PID=<?= $row["PID"] ?>" class="btn btn-danger">Delete</td>
                 </tr>
             <?php

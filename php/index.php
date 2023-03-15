@@ -59,7 +59,7 @@ if (!isset($_SESSION["username"])) {
                 วัน/เดือน/ปีเกิด: <input type="date" name="bdate" id="d0" class="form-control"><br>
                 วันที่นำเข้าจำนำ: <input type="date" name="indate" id="d1" class="form-control"><br>
                 วันที่นำหมดจำนำ: <input type="date" name="exdate" id="d2" class="form-control"><br>
-                <input type="submit" name="submit" onclick="data()" class="btn btn-info w-100" value="เข้าสู่ระบบ"><br><br>
+                <input type="submit" name="submit" onclick="data()" class="btn btn-info w-100" value="บันทึกข้อมูล"><br><br>
 
                 <p>หากต้องการออกจากระบบคลิ๊ก<a href="logout.php">ออกระบบ</p>
 

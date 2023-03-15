@@ -5,6 +5,7 @@ $name =$_POST['Name'];
 $proid=$_POST['ProID'];
 $proname=$_POST['ProName'];
 $price=$_POST['Price'];
+$bdate=$_POST['bdate'];
 $indate=$_POST['indate'];
 $exdate=$_POST['exdate'];
  $dat1=strtotime($indate);
@@ -24,7 +25,7 @@ else if ($price>=20001&&$price<=100000) {
     $interest=($price*1.25)*$diff;
 }
 
-$sql="UPDATE `customer` SET PNAME='$name',PROID='$proid',PRONAME='$proname',Price='$price',INDATE='$indate',EXDATE='$exdate',Interest='$interest' WHERE PID='$per_id'";
+$sql="UPDATE `customer` SET PNAME='$name',BDATE='$bdate',PROID='$proid',PRONAME='$proname',Price='$price',INDATE='$indate',EXDATE='$exdate',Interest='$interest' WHERE PID='$per_id'";
 $result=mysqli_query($conn,$sql);
 if ($result) {
    echo"<script>alert('Edited Data');</script>"; 
