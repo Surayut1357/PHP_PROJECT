@@ -19,7 +19,7 @@
                 <div class="text-center">เข้าสู่ระบบ Admin</div>
             </h2>
             <br><br>
-            ชื่อ<br> <input type="text" name="username" class="form-control" required><br>
+            อีเมลย์<br> <input type="text" name="username" class="form-control" required><br>
             รหัสผ่าน<br> <input type="password" name="password" class="form-control" required><br>
 
             <input type="submit" name="submit" class="btn btn-info w-100" value="เข้าสู่ระบบ"><br>

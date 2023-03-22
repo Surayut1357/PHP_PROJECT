@@ -14,17 +14,17 @@
 
     <div class="container1" >
 
-        <form action="login_cus.php" method="post">
+        <form action="login_cus_check.php" method="post">
             <h2>
                 <div class="text-center">เข้าสู่ระบบ</div>
             </h2>
             <br><br>
-            ชื่อ-นามสกุล<br> <input type="text" name="username" class="form-control" required><br>
-            รหัสหมายเลยประจำตัวประชาชน<br> <input type="password" name="password" class="form-control" required><br>
+            อีเมลย์<br> <input type="text" name="username" class="form-control" required><br>
+            รหัสผ่าน<br> <input type="password" name="password" class="form-control" required><br>
 
             <input type="submit" name="submit" class="btn btn-info w-100" value="เข้าสู่ระบบ"><br>
             <br>
-           
+            <p>ยังไม่ได้สมัครสมาชิกพนักงานใช่ไหม<a href="register.php">ลงทะเบียน</p>
 
         </form>
 
