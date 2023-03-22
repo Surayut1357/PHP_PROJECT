@@ -28,7 +28,7 @@
                 
                     <input type="submit" name="submit" class="btn btn-info w-100" value="เข้าสู่ระบบ">
                     <br>
-                    <p>สมัครสมาชิกพนักงานใช่ไหม? <a href="index.php">เข้าสู่ระบบ</p>
+                    <p>สมัครสมาชิกพนักงานใช่ไหม? <a href="login.php">เข้าสู่ระบบ</p>
 
                 </form>
 

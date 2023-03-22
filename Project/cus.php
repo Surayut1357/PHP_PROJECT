@@ -11,7 +11,7 @@ if (!isset($_SESSION["email"])) {
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Cus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,7 +26,7 @@ if (!isset($_SESSION["email"])) {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="logout.php">ออกจากระบบ</a>
+                      <a class="nav-link active" aria-current="page" href="logout_cus.php">ออกจากระบบ</a>
                   </li>
                  
 

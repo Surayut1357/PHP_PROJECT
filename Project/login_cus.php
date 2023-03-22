@@ -20,11 +20,11 @@
             </h2>
             <br><br>
             อีเมลย์<br> <input type="text" name="username" class="form-control" required><br>
-            รหัสผ่าน<br> <input type="password" name="password" class="form-control" required><br>
+            รหัส ID<br> <input type="password" name="password" class="form-control" required><br>
 
             <input type="submit" name="submit" class="btn btn-info w-100" value="เข้าสู่ระบบ"><br>
             <br>
-            <p>ยังไม่ได้สมัครสมาชิกพนักงานใช่ไหม<a href="register.php">ลงทะเบียน</p>
+            
 
         </form>
 
